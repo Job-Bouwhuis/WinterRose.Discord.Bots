@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "WinterRose.Discord.Bots.Tests": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
