@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "m147ampDcq4=",
+  "dgSpecHash": "Ot2F+PtRM2Q=",
   "success": true,
   "projectFilePath": "D:\\GitRepositories\\Personal\\WinterRose.Discord.Bots\\WinterRose.Discord.Bots\\WinterRose.Discord.Bots.csproj",
   "expectedPackageFiles": [
@@ -22,9 +22,16 @@
     "C:\\Users\\Eigenaar\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\10.0.12\\microsoft.extensions.fileproviders.abstractions.10.0.12.nupkg.sha512",
     "C:\\Users\\Eigenaar\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\10.0.12\\microsoft.extensions.fileproviders.physical.10.0.12.nupkg.sha512",
     "C:\\Users\\Eigenaar\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\10.0.12\\microsoft.extensions.filesystemglobbing.10.0.12.nupkg.sha512",
+    "C:\\Users\\Eigenaar\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.9\\microsoft.extensions.logging.abstractions.10.0.9.nupkg.sha512",
     "C:\\Users\\Eigenaar\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.12\\microsoft.extensions.primitives.10.0.12.nupkg.sha512",
     "C:\\Users\\Eigenaar\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.24.1-preview.1\\microsoft.visualstudio.azure.containers.tools.targets.1.24.1-preview.1.nupkg.sha512",
-    "C:\\Users\\Eigenaar\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
+    "C:\\Users\\Eigenaar\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512",
+    "C:\\Users\\Eigenaar\\.nuget\\packages\\sixlabors.imagesharp\\3.1.11\\sixlabors.imagesharp.3.1.11.nupkg.sha512",
+    "C:\\Users\\Eigenaar\\.nuget\\packages\\winterrose.recordium\\26.3.2\\winterrose.recordium.26.3.2.nupkg.sha512",
+    "C:\\Users\\Eigenaar\\.nuget\\packages\\winterrose.shortcuts\\26.3.0\\winterrose.shortcuts.26.3.0.nupkg.sha512",
+    "C:\\Users\\Eigenaar\\.nuget\\packages\\winterrose.web.logging\\26.3.3\\winterrose.web.logging.26.3.3.nupkg.sha512",
+    "C:\\Users\\Eigenaar\\.nuget\\packages\\winterrose.reflection\\26.2.4\\winterrose.reflection.26.2.4.nupkg.sha512",
+    "C:\\Users\\Eigenaar\\.nuget\\packages\\winterrose.winterforge\\26.2.5\\winterrose.winterforge.26.2.5.nupkg.sha512"
   ],
   "logs": []
 }

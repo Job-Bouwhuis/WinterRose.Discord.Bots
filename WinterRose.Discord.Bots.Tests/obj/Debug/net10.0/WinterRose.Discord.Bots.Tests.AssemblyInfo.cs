@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WinterRose.Discord.Bots.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8559a0b37b62ac47d52ea1399801eb64aa08da49")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6ca0298f6b3948b9fbd4e6b4b70eedb8d6ec624")]
 [assembly: System.Reflection.AssemblyProductAttribute("WinterRose.Discord.Bots.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WinterRose.Discord.Bots.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

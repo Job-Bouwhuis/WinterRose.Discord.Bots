@@ -1,4 +1,7 @@
 <Solution>
+  <Project Path="../WinterRose.WinterForge/src/WinterRose.Reflection/WinterRose.Reflection.csproj" />
+  <Project Path="../WinterRose.WinterForge/src/WinterRose.WinterForge/WinterRose.WinterForge.csproj" />
+  <Project Path="../WinterRoseWebApp/Utils/WinterRose.Configuration/WinterRose.Configuration.csproj" />
   <Project Path="WinterRose.Discord.Bots.Tests/WinterRose.Discord.Bots.Tests.csproj" Id="4c427742-f376-48ee-83f2-18a572a8dbf1" />
   <Project Path="WinterRose.Discord.Bots/WinterRose.Discord.Bots.csproj" Id="40d7e14c-eba4-44a2-bace-4138321852a8" />
 </Solution>

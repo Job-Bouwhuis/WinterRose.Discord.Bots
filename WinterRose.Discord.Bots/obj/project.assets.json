@@ -323,6 +323,25 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Logging.Abstractions/10.0.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9"
+        },
+        "compile": {
+          "lib/net10.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
+        }
+      },
       "Microsoft.Extensions.Primitives/10.0.12": {
         "type": "package",
         "compile": {
@@ -357,6 +376,95 @@
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "SixLabors.ImageSharp/3.1.11": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "WinterRose.Recordium/26.3.2": {
+        "type": "package",
+        "dependencies": {
+          "WinterRose.Shortcuts": "26.3.0"
+        },
+        "compile": {
+          "lib/net10.0/WinterRose.Recordium.dll": {}
+        },
+        "runtime": {
+          "lib/net10.0/WinterRose.Recordium.dll": {}
+        }
+      },
+      "WinterRose.Shortcuts/26.3.0": {
+        "type": "package",
+        "dependencies": {
+          "SixLabors.ImageSharp": "3.1.11"
+        },
+        "compile": {
+          "lib/net10.0/WinterRose.Shortcuts.dll": {}
+        },
+        "runtime": {
+          "lib/net10.0/WinterRose.Shortcuts.dll": {}
+        }
+      },
+      "WinterRose.Web.Logging/26.3.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.9",
+          "WinterRose.Recordium": "26.3.2"
+        },
+        "compile": {
+          "lib/net10.0/WinterRose.Web.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/net10.0/WinterRose.Web.Logging.dll": {}
+        }
+      },
+      "WinterRose.Configuration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "WinterRose.WinterForge": "26.2.5"
+        },
+        "compile": {
+          "bin/placeholder/WinterRose.Configuration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WinterRose.Configuration.dll": {}
+        }
+      },
+      "WinterRose.Reflection/26.2.4": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/WinterRose.Reflection.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WinterRose.Reflection.dll": {}
+        }
+      },
+      "WinterRose.WinterForge/26.2.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "WinterRose.Reflection": "26.2.4"
+        },
+        "compile": {
+          "bin/placeholder/WinterRose.WinterForge.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WinterRose.WinterForge.dll": {}
         }
       }
     }
@@ -804,6 +912,78 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.Logging.Abstractions/10.0.9": {
+      "sha512": "9S/DFt4cohlMPpzIxjG6kk0L8MuN2vDm9pbMCulxtJzzk82oJHVLBd8vuQxaPskaYQwKqmFmbannf5eoChgjYg==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/10.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/roslyn3.11/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn3.11/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn4.0/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn4.4/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "buildTransitive/net461/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/net462/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/net8.0/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.targets",
+        "lib/net10.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net10.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/net462/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.10.0.9.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Microsoft.Extensions.Primitives/10.0.12": {
       "sha512": "dYfCLR52UA+3DL7C4I/pvSaRPkNqxrUAQmbFL2u0zvYKKzqgrFCJl08Df+F1aYc8leu9JvpC9bsURUdpExcBXQ==",
       "type": "package",
@@ -942,6 +1122,76 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "SixLabors.ImageSharp/3.1.11": {
+      "sha512": "JfPLyigLthuE50yi6tMt7Amrenr/fA31t2CvJyhy/kQmfulIBAqo5T/YFUSRHtuYPXRSaUHygFeh6Qd933EoSw==",
+      "type": "package",
+      "path": "sixlabors.imagesharp/3.1.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "build/SixLabors.ImageSharp.props",
+        "lib/net6.0/SixLabors.ImageSharp.dll",
+        "lib/net6.0/SixLabors.ImageSharp.xml",
+        "sixlabors.imagesharp.128.png",
+        "sixlabors.imagesharp.3.1.11.nupkg.sha512",
+        "sixlabors.imagesharp.nuspec"
+      ]
+    },
+    "WinterRose.Recordium/26.3.2": {
+      "sha512": "760wZIwZRSj2+aOJDwuGdertXJXPLW6a/mzSB62dlyJD1StSQwDOI0jxehaQyGwoX9qPfx8RMaZKNPT7AQErow==",
+      "type": "package",
+      "path": "winterrose.recordium/26.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net10.0/WinterRose.Recordium.dll",
+        "winterrose.recordium.26.3.2.nupkg.sha512",
+        "winterrose.recordium.nuspec"
+      ]
+    },
+    "WinterRose.Shortcuts/26.3.0": {
+      "sha512": "Ld2LmIzMZjyZMSSZv4qcOQZPV6x1ukRPXNqCJ2RuGo3HvmVAvtdq3ioTm62NqJtqFR1g3ZMWx05FqhDtY8mOFA==",
+      "type": "package",
+      "path": "winterrose.shortcuts/26.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net10.0/WinterRose.Shortcuts.dll",
+        "winterrose.shortcuts.26.3.0.nupkg.sha512",
+        "winterrose.shortcuts.nuspec"
+      ]
+    },
+    "WinterRose.Web.Logging/26.3.3": {
+      "sha512": "cr9zAuol6JW7rbF27UKBZOELzjTrnUkJ5B17jMEAifQowCOmETuz6y5onMwPt1F9xY9N17X/ukUcEGR0CXTtDQ==",
+      "type": "package",
+      "path": "winterrose.web.logging/26.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net10.0/WinterRose.Web.Logging.dll",
+        "winterrose.web.logging.26.3.3.nupkg.sha512",
+        "winterrose.web.logging.nuspec"
+      ]
+    },
+    "WinterRose.Configuration/1.0.0": {
+      "type": "project",
+      "path": "../../WinterRoseWebApp/Utils/WinterRose.Configuration/WinterRose.Configuration.csproj",
+      "msbuildProject": "../../WinterRoseWebApp/Utils/WinterRose.Configuration/WinterRose.Configuration.csproj"
+    },
+    "WinterRose.Reflection/26.2.4": {
+      "type": "project",
+      "path": "../../WinterRose.WinterForge/src/WinterRose.Reflection/WinterRose.Reflection.csproj",
+      "msbuildProject": "../../WinterRose.WinterForge/src/WinterRose.Reflection/WinterRose.Reflection.csproj"
+    },
+    "WinterRose.WinterForge/26.2.5": {
+      "type": "project",
+      "path": "../../WinterRose.WinterForge/src/WinterRose.WinterForge/WinterRose.WinterForge.csproj",
+      "msbuildProject": "../../WinterRose.WinterForge/src/WinterRose.WinterForge/WinterRose.WinterForge.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -951,7 +1201,9 @@
       "Microsoft.Extensions.Configuration.EnvironmentVariables >= 10.0.12",
       "Microsoft.Extensions.Configuration.Json >= 10.0.12",
       "Microsoft.Extensions.DependencyInjection >= 10.0.12",
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.24.1-preview.1"
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.24.1-preview.1",
+      "WinterRose.Configuration >= 1.0.0",
+      "WinterRose.Web.Logging >= 26.3.3"
     ]
   },
   "packageFolders": {
@@ -987,7 +1239,11 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\GitRepositories\\Personal\\WinterRoseWebApp\\Utils\\WinterRose.Configuration\\WinterRose.Configuration.csproj": {
+              "projectPath": "D:\\GitRepositories\\Personal\\WinterRoseWebApp\\Utils\\WinterRose.Configuration\\WinterRose.Configuration.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1030,6 +1286,10 @@
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
             "version": "[1.24.1-preview.1, )"
+          },
+          "WinterRose.Web.Logging": {
+            "target": "Package",
+            "version": "[26.3.3, )"
           }
         },
         "imports": [

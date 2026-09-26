@@ -16,4 +16,13 @@
     <ProjectReference Include="..\WinterRose.Discord.Bots\WinterRose.Discord.Bots.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="AppSettings - Copy.wf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="AppSettings.wf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
